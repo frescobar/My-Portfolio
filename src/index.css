@@ -5,9 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F9F9F9;
+  font-family: 'Architects Daughter', cursive;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-header{
+  min-width: 100%;
+}
+
+.list{
+  display:flex;
+  justify-content: center;
+}
+
+.list li{
+  font-size: 1.3rem;
+  color:#F90D54;
+  list-style: none;
+  font-weight: bold 800;
+  margin: 5px 20px;
+  opacity: 0.7;
+  font-weight: 600;
+  
+  
+
+}
+
+li:hover{
+  color: rgb(20, 20, 20);
+  cursor: pointer;
+  opacity:0.5;
+}
+.section{
+  /* border: 1px solid gray; */
+  width: 78%;
+  height: 400px;
+  position: relative;
+  margin:100px auto;
+  background-image: url("./bgimg.svg");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.name{
+  font-style: italic;
+  color: #F90D54;
+  opacity: 0.6;
+}
+.tittle{
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: 'Architects Daughter', cursive;
+  color:rgb(22, 175, 80);
+  width: 55%;
+  position:absolute;
+  right: 85px;
+  top: 20px;
 }
